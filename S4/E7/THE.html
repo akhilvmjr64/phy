@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
+
+    <title>Specific Heat Capacity - Method of mixtures</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="../main.css" rel="stylesheet">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto+Slab&display=swap" rel="stylesheet">
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+    <script>
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ]
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="w3-bar w3-green">
+        <div class="w3-left w3-xxxlarge" style="padding-left:16px;">
+            <a href="../../index.html"><i class="fa fa-home"></i></a>
+        </div>
+        <div class="w3-center w3-rest">
+            <h1 class="title-font"> PHYSICS LAB MANUALS </h1>
+        </div>
+    </div>
+
+    <div class="w3-bar w3-purple heading">
+
+        <a class="w3-purple w3-xxlarge w3-left w3-padding" style="border: none;" href="../exps.html">
+            <i class="fa fa-arrow-left"></i>
+        </a>
+        <a href="#" class="w3-purple w3-xxlarge w3-left w3-padding" id="menu-toggle" style="border: none;">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <h1 class="w3-center">Specific Heat Capacity - Method of mixtures</h1>
+    </div>
+
+    <div class="d-flex" id="wrapper">
+
+
+
+        <div class="border-right" id="sidebar-wrapper">
+            <div class="list-group list-group-flush">
+
+                <a href="AIM.html" class="list-group-item list-group-item-action">Aim</a>
+                <a href="PRI.html" class="list-group-item list-group-item-action">Principle</a>
+                <a href="EQI.html" class="list-group-item list-group-item-action">Equipments Required</a>
+                <a href="PRO.html" class="list-group-item list-group-item-action">Procedure</a>
+                <a href="STU.html" class="list-group-item list-group-item-action">Study Questions</a>
+                <a href="FUR.html" class="list-group-item list-group-item-action">Further Scope</a>
+                <a href="PRE.html" class="list-group-item list-group-item-action">Precautions</a>
+                <a href="SOU.html" class="list-group-item list-group-item-action">Sources of Error</a>
+                <a href="THE.html" class="list-group-item list-group-item-action" id="curNav">Theory</a>
+                <a href="RES.html" class="list-group-item list-group-item-action">Additional Resources</a>
+
+            </div>
+        </div>
+
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+
+                <p>When a body gains or loses energy in a thermal process, we find experimentally that the temperature
+                    change of the
+                    body is proportional to its change in energy: &Delta;H = mS(&Delta;T)</p>
+                <p>where</p>
+
+                <ul>
+                    <li> &Delta;H = amount of energy gained or lost in the thermal process</li>
+                    <li> m = mass of the body being considered</li>
+                    <li> S = specific heat capacity of the materilil of the body</p>
+                    <li> &Delta;T = change in temperature of the blidy</p>
+                </ul>
+
+                <p>Consider two bodies at different temperatures, insulated from all other bodies, yet able to transfer
+                    heat to each
+                    other. The heat lost by the initially hotter one is equal to the heat gained by the initially cooler
+                    one. Then the
+                    above equation applied to each body gives:</p>
+                <p>m<sub>1</sub>S<sub>1</sub>&Delta;T<sub>1</sub> = m<sub>2</sub>S<sub>2</sub>&Delta;T<sub>2</sub></p>
+
+
+                <p>HEAT: When an amount of energy is transferred from one body to another solely as a result of the
+                    temperature
+                    differences between the bodies, we call that amount of energy &ldquo;heat&rdquo;. Bodies can
+                    transfer energy in this
+                    way through three processes: radiation, conduction, convection. When the hotter body losses thermal
+                    energy to a
+                    cooler one, the process continues until both bodies reach the same &ldquo;equilibrium&rdquo;
+                    temperature.</p>
+
+
+                <p>NEWTON&rsquo;S LAW OF COOLING: If the temperature difference &Delta;T, between the two bodies is not
+                    too large, the
+                    rate of change of the temperature difference is nearly proportional to that</p>
+                <p>temperature difference:</p>
+                <p>(d/dt)&Delta;T = -K&Delta;T ...... (1)</p>
+                <p>If at some time t = 0 the temperature difference is T<sub>0</sub> at a later time</p>
+                <p>t, the temperature difference will be:</p>
+                <p>&Delta;T = &Delta;T<sub>0</sub> e<sup>-Kt</sup> ...... (2)</p>
+                <p>This can be shown by integrating equation (1).</p>
+                <p>Therefore, when two bodies exchange energy thermally the temperature of each will exponentially
+                    approach their common
+                    final equilibrium temperature.</p>
+
+
+                <p>HEAT UNITS: The kilocalorie(kc) is defined to be the amount of heat required to increase the
+                    temperature of 1kilogram
+                    of water through 1&deg;C. In nutrition studies this is simply called the &ldquo;calorie&rdquo;. In
+                    physics books
+                    which use the cgs system the gram calorie (gc) or small calorie is defined as the amount of heat
+                    required to
+                    increase the temperature of 1gm of water by 1&deg;C.</p>
+                <p>The British thermal unit (BTU) is defined as the amount of heat required to increase the temperature
+                    of 1pound of
+                    water by 1&deg;F. In this system the specific heat capacity of water has magnitude 1.</p>
+
+
+                <p><strong>CALORIMETRY: </strong>Consider two bodies at different temperatures, insulated from all other
+                    bodies, yet
+                    able to transfer heat to each other. The heat gained by the initially cooler body is equal to the
+                    heat lost by the
+                    initially hotter one.</p>
+
+                <p>m<sub>1</sub>s<sub>1</sub> (&Delta;T)<sub>1</sub> = m<sub>2</sub> s<sub>2</sub>
+                    (&Delta;T)<sub>2</sub></p>
+
+                <p>Lead shots are heated to steam temperature, then dumped into cool water in the calorimeter and
+                    allowed to come to an
+                    equilibrium temperature. The necessary measurements are: mass of water, mw; initial water
+                    temperature, Tw; mass of
+                    metal sample, ms; sample temperature, Ts; and the final equilibrium temperature of the mixture, Tf.
+                    The heat
+                    exchange equation is:</p>
+
+                <p>m<sub>w</sub>(T<sub>w</sub> - T<sub>f</sub>) + m<sub>s</sub>s<sub>s</sub>(T<sub>s</sub> -
+                    T<sub>f</sub>) +
+                    m<sub>c</sub>s<sub>c</sub>(T<sub>c</sub> - T<sub>f</sub> ) = 0</p>
+
+                <p>The subscript c labels quantities that describe the calorimeter inner cup. This cup also participates
+                    in the heat
+                    exchange. Its temperature is nearly the same as the water in it, so T<sub>c</sub> = T<sub>w</sub>.
+                </p>
+                <p>m<sub>c</sub>s<sub>c</sub>(T<sub>w</sub> - T<sub>f</sub>) + m<sub>t</sub>s<sub>t</sub>(T<sub>w</sub>
+                    - T<sub>f</sub>)
+                </p>
+                <p>Since these bodies follow the water temperature, they share the (T<sub>w</sub> - T<sub>f</sub>)
+                    factor with the water term of the heat
+                    transfer equation. We can therefore combine all three terms:</p>
+
+                <p>(m<sub>w</sub> + m<sub>c</sub>s<sub>c</sub> + m<sub>t</sub>s<sub>t</sub>) (T<sub>w</sub> -
+                    T<sub>f</sub>)</p>
+
+                <p>The quantity (m<sub>s</sub>s<sub>c</sub> + m<sub>t</sub>s<sub>t</sub>) = m<sub>eq</sub> is often
+                    called the "water
+                    equivalent" of the cup and thermometer. Once it is determined, this number is simply added to the
+                    measured mass of
+                    water, for the purposes of calculation of the heat transfer equation:</p>
+
+                <p>(m<sub>w</sub> + m<sub>eq</sub>) (T<sub>2</sub> - T<sub>f</sub>) + m<sub>s</sub>s<sub>s</sub>
+                    (T<sub>s</sub> -
+                    T<sub>f</sub>) = 0</p>
+
+                <p>WATER EQUIVALENT: For a given volume of material, the effectiveness of the material for producing a
+                    temperature
+                    change is proportional to its water equivalent, the product of its mass and its specific heat
+                    capacity.</p>
+
+
+                <p><strong>Equation for Error analysis:</strong></p>
+                $$
+                \frac{\Delta S_s}{S_s} =
+                \frac{\Delta (T_c + T_f)}{(T_c + T_f)} +
+                \frac{\Delta m_w}{m_w} +
+                \frac{\Delta m_c}{m_c} +
+                \frac{\Delta m_s}{m_s} +
+                \frac{\Delta (T_s + T_f)}{(T_s + T_f)}
+                $$
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+</body>
+
+</html>

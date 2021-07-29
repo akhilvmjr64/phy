@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
+
+    <title> Phase Change – Latent Heat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="../main.css" rel="stylesheet">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto+Slab&display=swap" rel="stylesheet">
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+    <script>
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ]
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="w3-bar w3-green">
+        <div class="w3-left w3-xxxlarge" style="padding-left:16px;">
+            <a href="../../index.html"><i class="fa fa-home"></i></a>
+        </div>
+        <div class="w3-center w3-rest">
+            <h1 class="title-font"> PHYSICS LAB MANUALS </h1>
+        </div>
+    </div>
+
+    <div class="w3-bar w3-purple heading">
+
+        <a class="w3-purple w3-xxlarge w3-left w3-padding" style="border: none;" href="../exps.html">
+            <i class="fa fa-arrow-left"></i>
+        </a>
+        <a href="#" class="w3-purple w3-xxlarge w3-left w3-padding" id="menu-toggle" style="border: none;">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <h1 class="w3-center"> Phase Change – Latent Heat</h1>
+    </div>
+
+    <div class="d-flex" id="wrapper">
+
+
+
+        <div class="border-right" id="sidebar-wrapper">
+            <div class="list-group list-group-flush">
+
+                <a href="AIM.html" class="list-group-item list-group-item-action">Aim</a>
+                <a href="PRI.html" class="list-group-item list-group-item-action">Principle</a>
+                <a href="EQI.html" class="list-group-item list-group-item-action">Equipments Required</a>
+                <a href="PRO.html" class="list-group-item list-group-item-action" id="curNav">Procedure</a>
+                <a href="STU.html" class="list-group-item list-group-item-action">Study Questions</a>
+                <a href="FUR.html" class="list-group-item list-group-item-action">Further Scope</a>
+                <a href="PRE.html" class="list-group-item list-group-item-action">Precautions</a>
+                <a href="SOU.html" class="list-group-item list-group-item-action">Sources of Error</a>
+                <a href="THE.html" class="list-group-item list-group-item-action">Theory</a>
+                <a href="RES.html" class="list-group-item list-group-item-action">Additional Resources</a>
+
+            </div>
+        </div>
+
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div style="overflow: auto;">
+
+                    <table>
+                        <caption>Table II: The details of the physical quantities to be measured.</caption>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2">
+                                    <p>S. No</p>
+                                </td>
+                                <td rowspan="2">
+                                    <p>Physical quantity</p>
+                                </td>
+                                <td rowspan="2">
+                                    <p>Dependent or Independent</p>
+                                </td>
+                                <td rowspan="2">
+                                    <p>Measured with</p>
+                                </td>
+                                <td colspan="3">
+                                    <p>Measuring instrument&rsquo;s</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Minimum</p>
+                                </td>
+                                <td>
+                                    <p>Maximum</p>
+                                </td>
+                                <td>
+                                    <p>Least count</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>1</p>
+                                </td>
+                                <td>
+                                    <p>Temperature</p>
+                                </td>
+                                <td>
+                                    <p>dependent</p>
+                                </td>
+                                <td>
+                                    <p>Thermometer</p>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>2</p>
+                                </td>
+                                <td>
+                                    <p>Mass</p>
+                                </td>
+                                <td>
+                                    <p>independent</p>
+                                </td>
+                                <td>
+                                    <p>Weighting machine</p>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p><strong>Heat of Melting of Ice:</strong></p>
+                <ol>
+                    <li>Determine the mass of the inner calorimeter cup, m<sub>c</sub>. Record this in the Data sheet
+                        for the Heat of
+                        Melting.</li>
+                    <li>Fill the inner calorimeter cup about two-thirds/one-thirds/one-fourth full of water, and
+                        determine the mass of
+                        the
+                        water, m<sub>w</sub>. Record this value for Heat of Melting experiment.</li>
+                    <li>Determine the initial temperature of the water and the inner calorimeter cup, T, using the
+                        standard thermometer.
+                        Record this value for the Heat of Melting experiment.</li>
+                    <li>Record the initial temperature of the ice.</li>
+                    <li>Dry a sample of ice with a paper towel, then add the ice to the calorimeter. Be sure that the
+                        quantity of ice
+                        added
+                        to the water is sufficient to produce a large enough temperature change that can be measured
+                        precisely. Also do
+                        not
+                        use too large piece of ice that the calorimeter and the cup will be reduced to the freezing
+                        point of water.</li>
+                    <li>Determine the final temperature of the mixture. Record this value for the Heat of Melting
+                        experiment.</li>
+                    <li>Determine the mass of the added ice, m<sub>ice</sub> by measuring the final mass of the
+                        calorimeter and water
+                        with
+                    <li>Repeat the experiment with three different mass of the added ice, m<sub>ice</sub>.</p>
+                </ol>
+
+                <p><strong>Heat of Condensation:</strong></p>
+                <ol>
+                    <li>Determine the mass of the inner calorimeter cup, m<sub>c</sub>. Record this value for the heat
+                        of Condensation
+                        experiment.</li>
+                    <li>Fill the inner calorimeter cup for about two-thirds/one-thirds/one-fourth full of water and
+                        determine the mass
+                        of
+                        water, m<sub>w</sub>. Record this value for the Heat of Condensation experiment.</li>
+                    <li>Determine the initial temperature of the water and the inner calorimeter cup, T<sub>iw</sub>,
+                        using the standard
+                        thermometer. Record this value for the Heat of Condensation experiment.</li>
+                    <li>Record the initial temperature of the steam.</li>
+                    <li>Add a small quantity of steam to the water in the calorimeter cup.</li>
+                    <li>When the temperature has adequately changed, clamp the hose that is in the water and shake any
+                        excess water from
+                        the
+                        hose as it is removed from the water. If the hose is not clamped, water could be drawn into the
+                        trap at the time
+                        the
+                        hose is removed. This will require the experiment to be performed again.</li>
+                    <li>Stir the water in the calorimeter cup after the steam hose is removed. Continue this until the
+                        temperature
+                        stabilizes. Watch for the temperature to briefly hold at some point on the thermometer. Record
+                        this equilibrium
+                        temperature.</li>
+                    <li>Determine the mass of the added steam, m<sub>steam</sub>, by measuring the final mass of the
+                        calorimeter and
+                        water
+                        with the condensed steam and subtract the mass of the calorimeter cup, m<sub>e</sub>, and the
+                        initial amount of
+                        water, m<sub>w</sub>. Record this mass.</li>
+                    <li>Repeat the experiment with three different mass of the added steam, m<sub>steam</sub>.</li>
+                </ol>
+
+                <p><strong>Calculations</strong></p>
+                <ol>
+                    <li>Determine the amount of heat gained by the melted ice (water), Q <sub>warning</sub> as it warms
+                        from the melting
+                        point of 0&deg;C to the equilibrium temperature
+                        Q <sub>warming </sub>= m<sub>ice</sub>c<sub>w </sub>(T<sub>f </sub>- 0<sup>0</sup>C).</li>
+                    <li>Determine the amount of heat lost by the original water, Q<sub>w</sub>, as it cools from its
+                        initial
+                        temperature,
+                        T<sub>iw</sub>, to the final equilibrium temperature T<sub>f</sub>
+                        Q <sub>w </sub>= m<sub>w</sub>c<sub>W </sub>(T<sub>f </sub>- T<sub>iw</sub>).</li>
+                    <li>Determine the amount of heat lost by the inner calorimeter cup, Q<sub>c</sub>, as it cools from
+                        its initial
+                        temperature T<sub>iw</sub> to the final equilibrium temperature, T<sub>f</sub>
+                        Q <sub>c </sub>= m<sub>c</sub>c<sub>c </sub>(T<sub>f </sub>- T<sub>iw</sub>).</li>
+                    <li>Determine the amount of heat gained by the ice as it melted at 0&deg;C, Q <sub>melting</sub>
+                        Q <sub>melting </sub>= - (Q <sub>warming</sub> + Q <sub>w</sub> + Q <sub>c</sub>).</li>
+                    <li>Calculate the Heat of Melting of Ice, L<sub>f</sub>.
+                        Q <sub>melting </sub>= m<sub>ice </sub>. L<sub>f</sub></li>
+                    <li>Calculate the percent error of the calculated value of the Heat of Melting of ice. The Heat of
+                        Melting of Ice is
+                        L<sub>f</sub>= 79.7 kcal/kg. Record the result.</li>
+                </ol>
+
+            </div>
+
+        </div>
+
+        <script>
+            $("#menu-toggle").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+        </script>
+</body>
+
+</html>

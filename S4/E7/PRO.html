@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
+
+    <title>Specific Heat Capacity - Method of mixtures</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="../main.css" rel="stylesheet">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto+Slab&display=swap" rel="stylesheet">
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+    <script>
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ]
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="w3-bar w3-green">
+        <div class="w3-left w3-xxxlarge" style="padding-left:16px;">
+            <a href="../../index.html"><i class="fa fa-home"></i></a>
+        </div>
+        <div class="w3-center w3-rest">
+            <h1 class="title-font"> PHYSICS LAB MANUALS </h1>
+        </div>
+    </div>
+
+    <div class="w3-bar w3-purple heading">
+
+        <a class="w3-purple w3-xxlarge w3-left w3-padding" style="border: none;" href="../exps.html">
+            <i class="fa fa-arrow-left"></i>
+        </a>
+        <a href="#" class="w3-purple w3-xxlarge w3-left w3-padding" id="menu-toggle" style="border: none;">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <h1 class="w3-center">Specific Heat Capacity - Method of mixtures</h1>
+    </div>
+
+    <div class="d-flex" id="wrapper">
+
+
+
+        <div class="border-right" id="sidebar-wrapper">
+            <div class="list-group list-group-flush">
+
+                <a href="AIM.html" class="list-group-item list-group-item-action">Aim</a>
+                <a href="PRI.html" class="list-group-item list-group-item-action">Principle</a>
+                <a href="EQI.html" class="list-group-item list-group-item-action">Equipments Required</a>
+                <a href="PRO.html" class="list-group-item list-group-item-action" id="curNav">Procedure</a>
+                <a href="STU.html" class="list-group-item list-group-item-action">Study Questions</a>
+                <a href="FUR.html" class="list-group-item list-group-item-action">Further Scope</a>
+                <a href="PRE.html" class="list-group-item list-group-item-action">Precautions</a>
+                <a href="SOU.html" class="list-group-item list-group-item-action">Sources of Error</a>
+                <a href="THE.html" class="list-group-item list-group-item-action">Theory</a>
+                <a href="RES.html" class="list-group-item list-group-item-action">Additional Resources</a>
+
+            </div>
+        </div>
+
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div style="overflow: auto;">
+
+                    <table>
+                        <caption>The following quantities are directly measured in this experiment.</caption>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2">
+                                    <p>S.No</p>
+                                </td>
+                                <td rowspan="2">
+                                    <p>Physical quantity</p>
+                                </td>
+                                <td rowspan="2">
+                                    <p>Independent/Dependent</p>
+                                </td>
+                                <td rowspan="2">
+                                    <p>Measured with</p>
+                                </td>
+                                <td colspan="3">
+                                    <p>Measuring instrument&rsquo;s</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Minimum</p>
+                                </td>
+                                <td>
+                                    <p>Maximum</p>
+                                </td>
+                                <td>
+                                    <p>Least count</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>1</p>
+                                </td>
+                                <td>
+                                    <p>temperature</p>
+                                </td>
+                                <td>
+                                    <p>dependent</p>
+                                </td>
+                                <td>
+                                    <p>thermometer</p>
+                                </td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    <p>time</p>
+                                </td>
+                                <td>
+                                    <p>independent</p>
+                                </td>
+                                <td>
+                                    <p>clock</p>
+                                </td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <ol>
+                    <li>Weigh the inner cup of the calorimeter. Note the metal with which the inner cup of the
+                        calorimeter is made and
+                        note down the specific heat capacity of this material from the physical constants table.</li>
+                    <li>Determine what mass of water would be required to fill the inner cup 1/3<sup>rd</sup> or
+                        1/4<sup>th</sup> full.
+                    </li>
+                    <li>Do a trial <em>calculation </em>to determine what mass of shot at 100<sup>0</sup>C must be added
+                        to cold water
+                        at 5<sup>0</sup> below room temperature to give a final equilibrium temperature about
+                        5<sup>0</sup> above room
+                        temperature. Since you don&rsquo;t yet know the specific heat of the metal you have to make an
+                        intelligent guess
+                        of its value for this calculation. Consult handbook values for metals, but keep in mind the
+                        possibility that the
+                        sample you have been given just might be an alloy whose value is not in the table. We want to
+                        achieve a
+                        temperature change of <em>at least </em>4<sup>0</sup>C in water, without using so much shot that
+                        the cup becomes
+                        overfull.</li>
+                    <li>Now that you have determined how much shot to use, weigh out that much. Put it in the
+                        steam-generator cup, plug
+                        the top of the cup with cotton, and heat the shot in the steam-generator.</li>
+                    <li>Typical weight to get a reasonable temperature change is ~ 80 &ndash; 100 gm of the shot and
+                        take the water
+                        having 4 &ndash; 5<sup>0</sup>C lower temperature than that of room temperature. The temperature
+                        of the water
+                        can be lowered by adding appropriate amount of either ice-water or ice. In this case, the total
+                        weight of the
+                        water is weight of water at room temperature and that of ice-water/ice. Put the cold water in
+                        the inner cup
+                        weigh both together. Assemble the calorimeter. Allow five minutes time for the calorimeter and
+                        water to attain
+                        equilibrium. Note down initial temperature of water in the calorimeter, T<sub>w</sub>.</li>
+                    <li>When the shot cup has been in the steam bath for at least 10 minutes the metal shot will be at
+                        the steam
+                        temperature (near 100<sup>0</sup> C depending on the barometric pressure). Ensure that the shots
+                        have reached
+                        steady state temperature. Note down this temperature, T<sub>s</sub>.</li>
+                    <li>Quickly transfer the shot and reassemble it, then continue your temperature readings of the
+                        water in the
+                        calorimeter every &frac12; minute. The exact time of dumping in the shot must be noted also.
+                        Take temperature
+                        readings for six minutes after the maximum temperature, T<sub>f</sub>, is observed. This helps
+                        to clearly
+                        establish the cooling curve of the water.</li>
+                    <li>Following the procedure outlined in para entitled &lsquo;<em>cooling correction due to
+                            radiation</em>&rsquo;
+                        under experimental technique, draw the time-temperature plot of the actual observations, the
+                        cooling curve and
+                        the time-temperature plot of the observations corrected for radiation losses. Note down the
+                        value of
+                        T<sub>f</sub> from this plot.</li>
+                    <li>Using the above observations in the equation: (m<sub>w</sub>+m<sub>eq</sub>)
+                        (T<sub>2</sub>-T<sub>f</sub>) +
+                        m<sub>s</sub>s<sub>s </sub>(T<sub>s</sub>-T<sub>f</sub>)=0. Determine the specific heat capacity
+                        of the
+                        experimental metal shot.</li>
+                    <li>At the conclusion of the experiment, put the wet shot in the designated place to be dried. Do
+                        <em>not </em>put
+                        wet shot back in the original container. Empty the water from the boiler and the calorimeter.
+                        Dry and spill on
+                        the table and floor.</li>
+                    <li>Initial temperature of water in the calorimeter (T<sub>w</sub>) =</li>
+                    <p/p> <p>weight of inner cup =</p>
+                    <p>weight of inner cup with water =</p>
+                    <p>weight of water =</p>
+                    <p>Mass of lead shot taken =</p>
+                    <p>Steam temperature (T<sub>s</sub> ) =</p>
+                    <p></p> temperature T<sub>f </sub> =</p>
+                </ol>
+                <div style="overflow: auto;">
+                    <table>
+                        <caption>Table III: Table for cooling correction.</caption>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>Time(in minutes)</p>
+                                </td>
+                                <td>
+                                    <p>1</p>
+                                </td>
+                                <td>
+                                    <p>2</p>
+                                </td>
+                                <td>
+                                    <p>3</p>
+                                </td>
+                                <td>
+                                    <p>4</p>
+                                </td>
+                                <td>
+                                    <p>5</p>
+                                </td>
+                                <td>
+                                    <p>6</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Temperature</p>
+                                </td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            $("#menu-toggle").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+        </script>
+</body>
+
+</html>

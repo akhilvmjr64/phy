@@ -1,0 +1,131 @@
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+
+.title-font
+{
+    font-size: 48px;
+    font-family: "Averia Serif Libre";
+    /* background: red; */
+}
+
+
+  .heading h1 {
+    font-family: 'Roboto Slab';
+
+  }
+img
+{
+     max-width: 100%;
+    height: auto;
+  
+}
+
+#sidebar-wrapper #curNav
+{
+    /* background-color: black; */
+    background: #3C6997;
+    color: whitesmoke;
+    font-size: 24px;
+    height: 72px;
+    box-shadow: 0.7rem 0px 0px 0px black;
+     
+     /* border: 2px solid black; */
+}
+
+table {
+    border: 1px solid black;
+     border-collapse: collapse;
+     width: 100%;
+   }
+   
+   th, td {
+   border: 1px solid black;
+     text-align: left;
+     padding: 4px;
+   }  
+
+ol li
+{
+    margin: 18px;
+}
+
+   body {
+    overflow-x: hidden;
+  }
+  
+  #sidebar-wrapper {
+    /* display: block; */
+    min-height: 100vh;
+    margin-left: -18.7rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+  }
+
+  #sidebar-wrapper
+  {
+    background: #F5D17E;
+  
+  }
+  
+  #sidebar-wrapper .list-group {
+    width: 18rem;
+
+  }
+  
+  #sidebar-wrapper .list-group-item {
+    height: 65px;
+    /* overflow-y: hidden; */
+    font-family: 'Bebas Neue';
+    background: inherit;
+    letter-spacing: 0.1em;
+    font-size: 22px;
+    color: #0D1321;
+  }
+  
+  #sidebar-wrapper .list-group-item:hover {
+    background: lightsteelblue;
+  }
+  
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+    font-size: 20px;
+    padding: 16px;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+  }
+  #wrapper .container-fluid
+  {
+    padding: 2% 6%;
+  }
+  
+  
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+  
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -18.7rem;
+    }
+    
+  }
+  
+  li a
+  {
+    color: darkslateblue;
+    /* text-decoration-color: #3C6997; */
+  }
+

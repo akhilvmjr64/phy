@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
+
+    <title>Resonance in a Forced Oscillator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="../main.css" rel="stylesheet">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto+Slab&display=swap" rel="stylesheet">
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+    <script>
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ]
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="w3-bar w3-green">
+        <div class="w3-left w3-xxxlarge" style="padding-left:16px;">
+            <a href="../../index.html"><i class="fa fa-home"></i></a>
+        </div>
+        <div class="w3-center w3-rest">
+            <h1 class="title-font"> PHYSICS LAB MANUALS </h1>
+        </div>
+    </div>
+
+    <div class="w3-bar w3-purple heading">
+
+        <a class="w3-purple w3-xxlarge w3-left w3-padding" style="border: none;" href="../exps.html">
+            <i class="fa fa-arrow-left"></i>
+        </a>
+        <a href="#" class="w3-purple w3-xxlarge w3-left w3-padding" id="menu-toggle" style="border: none;">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <h1 class="w3-center">Resonance in a Forced Oscillator</h1>
+    </div>
+
+    <div class="d-flex" id="wrapper">
+
+
+
+        <div class="border-right" id="sidebar-wrapper">
+            <div class="list-group list-group-flush">
+
+                <a href="AIM.html" class="list-group-item list-group-item-action">Aim</a>
+                <a href="PRI.html" class="list-group-item list-group-item-action">Principle</a>
+                <a href="EQI.html" class="list-group-item list-group-item-action">Equipments Required</a>
+                <a href="PRO.html" class="list-group-item list-group-item-action" id="curNav">Procedure</a>
+                <a href="STU.html" class="list-group-item list-group-item-action">Study Questions</a>
+                <a href="FUR.html" class="list-group-item list-group-item-action">Further Scope</a>
+                <a href="PRE.html" class="list-group-item list-group-item-action">Precautions</a>
+                <a href="SOU.html" class="list-group-item list-group-item-action">Sources of Error</a>
+                <a href="THE.html" class="list-group-item list-group-item-action">Theory</a>
+                <a href="RES.html" class="list-group-item list-group-item-action">Additional Resources</a>
+
+            </div>
+        </div>
+
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                Three physical quantities will be measured in the experiment.
+                <div style="overflow-x:auto;">
+                    <table style="width: 100%">
+                        <caption>
+                            <p>Table II : The details of the physical quantities to be measured.</p>
+                        </caption>
+                        <tr>
+                            <th rowspan="2">S.No</th>
+                            <th rowspan="2">Physical quantity</th>
+                            <th rowspan="2">Independent / Dependent</th>
+                            <th rowspan="2">Measured with</th>
+                            <th colspan="3">Measuring instrument&rsquo;s</th>
+                        </tr>
+                        <tr>
+                            <td>Minimum</td>
+                            <td>Maximum</td>
+                            <td>Least count</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Mass</td>
+                            <td>Independent</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Extension</td>
+                            <td>Dependent</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Frequency</td>
+                            <td>Independent</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <ol>
+                    <li>First, measure the spring constant of the spring. (Remember I<sup>st</sup> semester experiment).
+                        Take readings in a table.</li>
+                    <li>Attach the free end of the spring to the thread and pass it over the pulley.</li>
+                    <li>Unscrew the disc attached to the rod and pass it through the lid of the clear acrylic cylinder.
+                        Attach 50gm weight to the rod. Now, screw the disc to its position. Calculate the natural frequency as
+                    <!-- 
+                        root of ( k / m).
+                     -->
+                         <div style="border: 2px solid black;padding: 10px; margin: 12px;">
+                         Check if this frequency lies within the minimum, maximum range of the frequency
+                         of the external force. If not, change the mass and recheck.
+                         </div>
+                         
+                    </li>
+                    <li>
+                        Now, pour the liquid into the cylinder.
+                    </li>
+                    <li>Place the scale (with magnetic rear) just behind the cylinder and see the scale through the
+                        cylinder. The scale appears to be magnified. If needed adjust the scale vertically or sideways
+                        so that the lower edge of the disc lies on the graduation of the scale.</li>
+                    <li>Switch ON the Oscillator. The frequency can be changed by pressing the down/up switch.</li>
+                    <li>Set the driving (external) frequency to 0.2 Hz.</li>
+                </ol>
+                <p>Carefully observe the total displacement of the oscillator along the scale. Divide this by 2 to get
+                    the amplitude. Take readings in table III.</p>
+                <p><strong>Carefully observe that the thread on both sides of the pulley should be in a single plane,
+                        else make adjustment.</strong></p>
+                <ol start="7">
+                    <li>Increase the frequency in steps of 0.2 Hz and measure the corresponding amplitude. Make sure to
+                        use the frequency values above and below the natural frequency.</li>
+                    <li>Plot the graph &ndash; driving (external) frequency vs the amplitude.</li>
+                </ol>
+                <p>Spring constant= </p>
+                <p> mass = </p>
+                <p>natural frequency = </p>
+
+                <div style="overflow-x:auto;">
+                    <table style="width:100%">
+                        <caption>
+                            <p>Table III: Measurement of resonant frequency</p>
+                        </caption>
+                        <tbody>
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>External frequency (Hz)</th>
+                                <th>Amplitude (cm) for mass 50 gm</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+
+                    </table>
+                </div>
+                <ol start="9">
+                    <li>
+                        <p>Identify frequency corresponding to maximum displacement. This is resonant frequency. Compare
+                            it with natural natural frequency</p>
+                    </li>
+                </ol>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+</body>
+
+</html>

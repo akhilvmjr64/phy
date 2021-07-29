@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
+
+    <title> Thermal Conductivity of a Good Conductor - Searle's Method</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="../main.css" rel="stylesheet">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto+Slab&display=swap" rel="stylesheet">
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+    <script>
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ]
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="w3-bar w3-green">
+        <div class="w3-left w3-xxxlarge" style="padding-left:16px;">
+            <a href="../../index.html"><i class="fa fa-home"></i></a>
+        </div>
+        <div class="w3-center w3-rest">
+            <h1 class="title-font"> PHYSICS LAB MANUALS </h1>
+        </div>
+    </div>
+
+    <div class="w3-bar w3-purple heading">
+
+        <a class="w3-purple w3-xxlarge w3-left w3-padding" style="border: none;" href="../exps.html">
+            <i class="fa fa-arrow-left"></i>
+        </a>
+        <a href="#" class="w3-purple w3-xxlarge w3-left w3-padding" id="menu-toggle" style="border: none;">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <h1 class="w3-center"> Thermal Conductivity of a Good Conductor - Searle's Method</h1>
+    </div>
+
+    <div class="d-flex" id="wrapper">
+
+        <div class="border-right" id="sidebar-wrapper">
+            <div class="list-group list-group-flush">
+
+                <a href="AIM.html" class="list-group-item list-group-item-action">Aim</a>
+                <a href="PRI.html" class="list-group-item list-group-item-action" id="curNav">Principle</a>
+                <a href="EQI.html" class="list-group-item list-group-item-action ">Equipments Required</a>
+                <a href="PRO.html" class="list-group-item list-group-item-action ">Procedure</a>
+                <a href="STU.html" class="list-group-item list-group-item-action ">Study Questions</a>
+                <a href="FUR.html" class="list-group-item list-group-item-action ">Further Scope</a>
+                <a href="PRE.html" class="list-group-item list-group-item-action ">Precautions</a>
+                <a href="SOU.html" class="list-group-item list-group-item-action ">Sources of Error</a>
+                <a href="THE.html" class="list-group-item list-group-item-action ">Theory</a>
+                <a href="RES.html" class="list-group-item list-group-item-action ">Additional Resources</a>
+
+            </div>
+        </div>
+
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <ol>
+                    <li>
+                        Heat is transferred from one end of the medium to another end by conduction. The rate of heat
+                        flow is proportional to the area, A and the temperature gradient, \(\frac{dT}{dx}\), i.e,<br>
+                        $$\frac{Q}{t} = kA(\frac{dT}{dx})$$<br><br>
+                        &emsp;Here, k is the proportionality constant (Thermal Conductivity).<br>
+                        &emsp;Q is the heat supplied to the bar in time t,<br>
+                        &emsp;A is the cross-sectional area of the bar,<br>
+                        &emsp;dT is the difference in temperature between two points in the bar dx apart,<br>
+                        &emsp;k is the coefficient of thermal conductivity of the bar.
+
+                    </li>
+                    <li>
+                        In general, the heat flown through the medium is used to raise the temperature of water of mass
+                        M by \(\Delta T\) \(^\circ\) C, i.e,<br> $$Q = M.\Delta T$$
+                        In the apparatus used by you, the heat Q warms up a mass m (in kilograms) of water from
+                        temperature \(T_4\) to \(T_3\) according to the formula:
+                        \(Q = mc (T_3 - T_4))
+                        where ‘c' is the specific heat capacity of water (c = 4190 \(J kg^{-1} K^{-1}).
+
+                    </li>
+                    <li>
+                        At equilibrium, heat transferred is equal to the heat flown.
+
+                    </li>
+                    <li>
+                        Using : \(-dT = T_1 - T_2, dx=d\) , (d in meters), and \(A = \frac{\pi D^2}{4}\) (A in meters
+                        squared) we obtain:
+                        $$mc(T_3 - T_4) = k (\frac{\pi D^2}{4})(\frac{T_1-T_2}{d})t$$
+
+                        $$k = \frac{4mcd(T_3 - T_4)}{\pi D^2 (T_1 - T_2)}&ensp;(in &ensp; Wm^{-1}K^{-1})$$
+
+
+                    </li>
+                </ol>
+
+            </div>
+        </div>
+        <script>
+            $("#menu-toggle").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+        </script>
+</body>
+
+</html>

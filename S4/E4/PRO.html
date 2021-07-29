@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
+
+    <title>Electrical equivalent of Heat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="../main.css" rel="stylesheet">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto+Slab&display=swap" rel="stylesheet">
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+    <script>
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ]
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="w3-bar w3-green">
+        <div class="w3-left w3-xxxlarge" style="padding-left:16px;">
+            <a href="../../index.html"><i class="fa fa-home"></i></a>
+        </div>
+        <div class="w3-center w3-rest">
+            <h1 class="title-font"> PHYSICS LAB MANUALS </h1>
+        </div>
+    </div>
+
+    <div class="w3-bar w3-purple heading">
+
+        <a class="w3-purple w3-xxlarge w3-left w3-padding" style="border: none;" href="../exps.html">
+            <i class="fa fa-arrow-left"></i>
+        </a>
+        <a href="#" class="w3-purple w3-xxlarge w3-left w3-padding" id="menu-toggle" style="border: none;">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <h1 class="w3-center">Electrical equivalent of Heat</h1>
+    </div>
+
+    <div class="d-flex" id="wrapper">
+
+
+
+        <div class="border-right" id="sidebar-wrapper">
+            <div class="list-group list-group-flush">
+
+                <a href="AIM.html" class="list-group-item list-group-item-action">Aim</a>
+                <a href="PRI.html" class="list-group-item list-group-item-action">Principle</a>
+                <a href="EQI.html" class="list-group-item list-group-item-action">Equipments Required</a>
+                <a href="PRO.html" class="list-group-item list-group-item-action" id="curNav">Procedure</a>
+                <a href="STU.html" class="list-group-item list-group-item-action">Study Questions</a>
+                <a href="FUR.html" class="list-group-item list-group-item-action">Further Scope</a>
+                <a href="PRE.html" class="list-group-item list-group-item-action">Precautions</a>
+                <a href="SOU.html" class="list-group-item list-group-item-action">Sources of Error</a>
+                <a href="THE.html" class="list-group-item list-group-item-action">Theory</a>
+                <a href="RES.html" class="list-group-item list-group-item-action">Additional Resources</a>
+
+            </div>
+        </div>
+
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                Five physical quantities need to be measured in this experiment.<br>
+                A Fixed volume of water taken in a calorimeter cup (both at room temperature), is heated by passing a
+                constant current through the immersed nichrome wire maintained at a constant voltage across it.<br> Make
+                the
+                following table in your notebook and fill in the details.
+                <br />
+                <div style="overflow: auto;">
+                    <table>
+                        <caption>
+                            Table II : The details of the physical quantities to be measured.
+                        </caption>
+                        <colgroup>
+                            <col width="37" />
+                            <col width="104" />
+                            <col width="107" />
+                            <col width="101" />
+                            <col width="87" />
+                            <col width="87" />
+                            <col width="75" />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2">
+                                    <p>
+                                        S.No
+                                    </p>
+                                </td>
+                                <td rowspan="2">
+                                    <p>
+                                        Physical quantity
+                                    </p>
+                                </td>
+                                <td rowspan="2">
+                                    <p>
+                                        Independent /
+                                    </p>
+                                    <p>
+                                        Dependent
+                                    </p>
+                                </td>
+                                <td rowspan="2">
+                                    <p>
+                                        Measured
+                                    </p>
+                                    <p>
+                                        with
+                                    </p>
+                                </td>
+                                <td colspan="3">
+                                    <p>
+                                        Measuring instrument’s
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        Minimum
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        Maximum
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        Least count
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        Temperature
+                                    </p>
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        Time
+                                    </p>
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        3
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        Mass
+                                    </p>
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        4
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        Voltage
+                                    </p>
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        5
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        Current
+                                    </p>
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <ol>
+                    <li>
+                        <p>
+                            Connect the circuit.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Measure the mass of the calorimeter cup + stirrer. Let this be \(m_{1}\)
+                            grams.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Pour water into the cup so that Nichrome resistor coil is covered
+                            by about an inch of water.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Now, measure the mass of the calorimeter + stirrer + water. Let
+                            this be \(m_{2}\) grams.
+                        </p>
+                    </li>
+
+                    <div class="w3-center">
+                        <img src="PRO1.jpg">
+                        <br>
+                        <caption>
+                            Figure 2: Calorimeter setup
+                        </caption>
+                    </div>
+                    <li>
+                        <p>
+                            Insert a thermometer into the water in the calorimeter, taking care
+                            to see that the thermometer bulb is not in contact with nichrome
+                            coil.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Measure the initial temperature (\(T_{1}\)) after allowing a couple of
+                            minutes to allow the thermometer bulb to attain equilibrium with
+                            the water in the calorimeter.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Turn on the power supply and simultaneously turn on the stop watch.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Quickly adjust the voltage to get a current of about one ampere in
+                            the circuit as read by the current meter of the power supply unit.
+                            Note down the current as I amps. Turn the V/I switch on the power
+                            supply unit to read the voltage. Let this be V volts. Keep gently
+                            stirring the contents of the calorimeter taking care to see that
+                            the stirrer does not come in contact with the nichrome coil in the
+                            calorimeter. A contact is indicated by a sudden change in voltage
+                            or by squeaking sound from the power supply unit.
+                        </p>
+                    </li>
+                    <li>
+                        Note down the temperature at regular intervals.<br>
+                        \(m_{1}\)= _________ gm \(T_{1}\) = _________<br>
+                        \(m_{2}\)= _________ gm \(T_{2}\) = _________<br>
+                        \(I\) = _________ amp \(T_{3}\) = _________<br>
+                        \(V\) = _________ volts<br>
+
+                        <div style="overflow: auto;">
+                            <table>
+                                <caption>
+                                    Table III : Measurements.
+                                </caption>
+                                <colgroup>
+                                    <col width="147" />
+                                    <col width="137" />
+                                    <col width="171" />
+                                    <col width="103" />
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2">
+                                            <p>
+                                                Heating
+                                            </p>
+                                        </td>
+                                        <td colspan="2">
+                                            <p>
+                                                Cooling
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                Temperature (℃)
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                Time (s)
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                Temperature (℃)
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                Time (s)
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <br />
+                                        </td>
+                                        <td>
+                                            <br />
+                                        </td>
+                                        <td>
+                                            <br />
+                                        </td>
+                                        <td>
+                                            <br />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <br />
+                                        </td>
+                                        <td>
+                                            <br />
+                                        </td>
+                                        <td>
+                                            <br />
+                                        </td>
+                                        <td>
+                                            <br />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <br />
+                                        </td>
+                                        <td>
+                                            <br />
+                                        </td>
+                                        <td>
+                                            <br />
+                                        </td>
+                                        <td>
+                                            <br />
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+
+                    <li>
+                        Record the values of temperature as a function of time in a table.
+                    </li>
+
+                    <li>
+                        When the temperature of the calorimeter contents reaches about 10 to 20 degrees Celsius higher
+                        than
+
+                        the starting temperature turn off the power supply. Call this time as t. Note this temperature
+                        as
+                        \(T_{2}\).
+                    </li>
+
+                    <li>
+                        Continue making observations of temperature at regular intervals until another t/2. Note the
+                        temperature at this time as \(T_{3}\).
+                    </li>
+
+                    <li>
+                        Plot the following graphs
+
+                        <ol type="A">
+
+                            <li>
+                                Temperature vs. Time for heating
+                            </li>
+
+                            <li>
+                                Temperature vs. Time for cooling
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+
+                        Calculate the Mechanical equivalent of heat as follows–<br>
+                        <b>
+
+                            By Radiation Correction
+                        </b>
+
+                        $$T_{2}'=T_{2}+T_{2}-T_{3}$$
+
+                        <b>
+
+                            Mechanical Equivalent Of Heat
+                        </b>
+
+                        $$1\hspace{0.5cm}J= \frac{VIt}{(m_c.s_c+m_w.s_w)(T_{2}'-T_{1})} cal$$
+                    </li>
+
+                    <li>
+
+                        Perform the least square fitting of the data in graph A to a straight line.
+                    </li>
+                    <li>
+
+                        Perform the least square fitting of the data in graph B to a exponential decay. The same graph
+                        can
+                        be plotted as \(ln(t)\) vs. Temperature and fit then fit to a straight line.
+                    </li>
+
+                </ol>
+            </div>
+        </div>
+
+        <script>
+            $("#menu-toggle").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+        </script>
+</body>
+
+</html>

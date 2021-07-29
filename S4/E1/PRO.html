@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
+
+    <title>Boyle's Law</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="../main.css" rel="stylesheet">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto+Slab&display=swap" rel="stylesheet">
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+    <script>
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ]
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="w3-bar w3-green">
+        <div class="w3-left w3-xxxlarge" style="padding-left:16px;">
+            <a href="../../index.html"><i class="fa fa-home"></i></a>
+        </div>
+        <div class="w3-center w3-rest">
+            <h1 class="title-font"> PHYSICS LAB MANUALS
+                </h1>
+        </div>
+    </div>
+
+    <div class="w3-bar w3-purple heading">
+
+        <a class="w3-purple w3-xxlarge w3-left w3-padding" style="border: none;" href="../exps.html">
+            <i class="fa fa-arrow-left"></i>
+        </a>
+        <a href="#" class="w3-purple w3-xxlarge w3-left w3-padding" id="menu-toggle" style="border: none;">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <h1 class="w3-center">Boyle's Law</h1>
+    </div>
+
+    <div class="d-flex" id="wrapper">
+
+
+
+        <div class="border-right" id="sidebar-wrapper">
+            <div class="list-group list-group-flush">
+
+                <a href="AIM.html" class="list-group-item list-group-item-action">Aim</a>
+                <a href="PRI.html" class="list-group-item list-group-item-action">Principle</a>
+                <a href="EQI.html" class="list-group-item list-group-item-action">Equipments Required</a>
+                <a href="PRO.html" class="list-group-item list-group-item-action" id="curNav">Procedure</a>
+                <a href="STU.html" class="list-group-item list-group-item-action">Study Questions</a>
+                <a href="FUR.html" class="list-group-item list-group-item-action">Further Scope</a>
+                <a href="PRE.html" class="list-group-item list-group-item-action">Precautions</a>
+                <a href="SOU.html" class="list-group-item list-group-item-action">Sources of Error</a>
+                <a href="THE.html" class="list-group-item list-group-item-action">Theory</a>
+                <a href="RES.html" class="list-group-item list-group-item-action">Additional Resources</a>
+
+            </div>
+        </div>
+
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                Two physical quantities need to be measured in this experiment. The volume of a fixed quantity of
+                atmospheric air is measured as a function of pressure at fixed temperature. <br>
+                <br>
+
+                Make the following table in your notebook and fill in the details.
+                <div style="overflow: auto;">
+                    <table>
+                        <caption>
+                            <p>
+                                Table II: The details of the physical quantities to be measured.
+                            </p>
+                        </caption>
+                        <colgroup>
+                            <col width="40" />
+                            <col width="119" />
+                            <col width="107" />
+                            <col width="101" />
+                            <col width="87" />
+                            <col width="87" />
+                            <col width="116" />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2">
+                                    <p>
+                                        S.No
+                                    </p>
+                                </td>
+                                <td rowspan="2">
+                                    <p>
+                                        Physical quantity
+                                    </p>
+                                </td>
+                                <td rowspan="2">
+                                    <p>
+                                        Independent /
+                                    </p>
+                                    <p>
+                                        Dependent
+                                    </p>
+                                </td>
+                                <td rowspan="2">
+                                    <p>
+                                        Measured
+                                    </p>
+                                    <p>
+                                        with
+                                    </p>
+                                </td>
+                                <td colspan="3">
+                                    <p>
+                                        Measuring instrument’s
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        Minimum
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        Maximum
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        Least count
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        Pressure
+                                    </p>
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        2
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        Volume
+                                    </p>
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div style="border: 3px solid black;margin: 15px;padding: 15px;">
+                    <p>
+                        How to measure pressure:
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                The top point in the open end of manometer is at atmospheric
+                                pressure.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If the levels in both the arms are at same height, then the gas in
+                                the closed arm is also at atmospheric pressure.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If the level of mercury in the closed arm is lower than the open
+                                end, then the gas in the closed arm is at higher pressure than the
+                                atmospheric pressure (PA).
+                            </p>
+                        </li>
+                    </ul>
+                    <br />
+                    <br />
+                    <p>
+                        How to measure Volume:
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                The volume of gas is enclosed in a (almost) cylindrical tube.
+                                (Neglect the curvature of the closed tube and the surface of
+                                mercury).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Hence the volume is . Here h = \(h_{3}\)- \(h_{2}\) (as shown in figure given
+                                below)
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                As Cross section is constant and volume is proportional to h, take
+                                readings for volume in terms of h.
+                            </p>
+                        </li>
+                    </ul>
+                    <br />
+                </div>
+
+                <div class="w3-center">
+                    <img src="PRO2.jpg"><br>
+                    <caption>
+                        Figure 2 : How to take measurements using a Mercury Manometer
+                    </caption>
+                </div>
+                <ol>
+                    <li>
+                        <p>
+                            Measure the atmospheric pressure (\(P_{0}\)) using a barometer, if
+                            available. Else take it as 76 cm/Hg.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Measure \(h_{1}\), \(h_{2}\) and \(h_{3}\) and note in the following tabular form.
+                        </p>
+                    </li>
+                </ol>
+                <br />
+                <p>
+                    Table III : Measurements to be taken
+                </p>
+                <p>
+                    \(P_{0}\) = _____________cm/Hg
+                </p>
+                <br />
+                <div style="overflow: auto;">
+                    <table>
+                        <colgroup>
+                            <col width="47" />
+                            <col width="47" />
+                            <col width="47" />
+                            <col width="57" />
+                            <col width="85" />
+                            <col width="95" />
+                            <col width="85" />
+                            <col width="57" />
+                            <col width="76" />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <br />
+                                </td>
+                                <td colspan="3">
+                                    <p>
+                                        Measure
+                                    </p>
+                                </td>
+                                <td colspan="2">
+                                    <p>
+                                        Pressure
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        ∝ Volume
+                                    </p>
+                                </td>
+                                <td colspan="2">
+                                    <p>
+                                        Calculate
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        S.No
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        \(h_{1}\) (cm)
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        \(h_{2}\) (cm)
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        \(h_{3}\) (cm)
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        Δ = \(h_{1}\)- \(h_{2}\) (cm)
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        \(P\)= (\(P_{0}\) + Δ) (cm/Hg)
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        \(L\)= \(h_{3}\)- \(h_{2}\) (cm)
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        1/\(L\)(cm-1)
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        \(P\) × \(L\) (cm2)
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        1
+                                    </p>
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        .
+                                    </p>
+                                    <p>
+                                        .
+                                    </p>
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        10
+                                    </p>
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="8">
+                                    <p>
+                                        Mean of \(P\) × \(L\)
+                                    </p>
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="8">
+                                    <p>
+                                        Standard Deviation of \(P\) × \(L\)
+                                    </p>
+                                </td>
+                                <td>
+                                    <br />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br />
+                <ol start="3">
+                    <li>
+                        <p>
+                            Adjust the height of the open end of the manometer to change the
+                            pressure. This will result in the change of the volume air in the
+                            closed end. Note down \(h_{1}\),\(h_{2}\) and \(h_{3}\) in the table. (Alternatively,
+                            the height of the closed end may also be varied)
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Repeat the measurement for different values of pressure.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Now calculate the Pressure, Volume and Calculate columns in the
+                            table.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Plot the following Graphs -
+                        </p>
+                    </li>
+                    <ol type="A">
+                        <li>
+                            <p>
+                                Pressure ( \(P\)) vs - Volume ( \( 1 \) \(/\) \(L\))
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Pressure ( \(P\)) vs - Volume ( \(L\))
+                            </p>
+                        </li>
+                    </ol>
+                    <li>
+                        <p>
+                            Perform the least square fitting of the data in graph A to a
+                            straight line. Interpret the meaning of the slope and the
+                            intercept.
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+</body>
+
+</html>

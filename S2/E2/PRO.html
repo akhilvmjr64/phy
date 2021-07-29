@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
+
+    <title>Normal Modes and Beats</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="../main.css" rel="stylesheet">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto+Slab&display=swap" rel="stylesheet">
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+    <script>
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ]
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="w3-bar w3-green">
+        <div class="w3-left w3-xxxlarge" style="padding-left:16px;">
+            <a href="../../index.html"><i class="fa fa-home"></i></a>
+        </div>
+        <div class="w3-center w3-rest">
+            <h1 class="title-font"> PHYSICS LAB MANUALS </h1>
+        </div>
+    </div>
+
+    <div class="w3-bar w3-purple heading">
+
+        <a class="w3-purple w3-xxlarge w3-left w3-padding" style="border: none;" href="../exps.html">
+            <i class="fa fa-arrow-left"></i>
+        </a>
+        <a href="#" class="w3-purple w3-xxlarge w3-left w3-padding" id="menu-toggle" style="border: none;">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <h1 class="w3-center">Normal Modes and Beats</h1>
+    </div>
+
+    <div class="d-flex" id="wrapper">
+
+
+
+        <div class="border-right" id="sidebar-wrapper">
+            <div class="list-group list-group-flush">
+
+                <a href="AIM.html" class="list-group-item list-group-item-action">Aim</a>
+                <a href="PRI.html" class="list-group-item list-group-item-action">Principle</a>
+                <a href="EQI.html" class="list-group-item list-group-item-action">Equipments Required</a>
+                <a href="PRO.html" class="list-group-item list-group-item-action" id="curNav">Procedure</a>
+                <a href="STU.html" class="list-group-item list-group-item-action">Study Questions</a>
+                <a href="FUR.html" class="list-group-item list-group-item-action">Further Scope</a>
+                <a href="PRE.html" class="list-group-item list-group-item-action">Precautions</a>
+                <a href="SOU.html" class="list-group-item list-group-item-action">Sources of Error</a>
+                <a href="THE.html" class="list-group-item list-group-item-action">Theory</a>
+                <a href="RES.html" class="list-group-item list-group-item-action">Additional Resources</a>
+
+            </div>
+        </div>
+
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <p>Two physical quantities need to be measured in this experiment &ndash;time and Length.</p>
+                <p>Make the following table &ndash;</p>
+
+
+                <div style="overflow-x:auto;">
+                    <table width="100%">
+                        <caption>
+                            <p>Table II : The details of the physical quantities to be measured.</p>
+                        </caption>
+                        <tr>
+                            <th rowspan="2">
+                                S.No
+                            </th>
+                            <th rowspan="2">
+                                Physical quantity
+                            </th>
+                            <th rowspan="2">
+                                Independent / Dependent
+                            </th>
+                            <th rowspan="2">
+                                Measured with
+                            </th>
+                            <th colspan="3">
+                                Measuring instrument&rsquo;s
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Minimum</p>
+                            </td>
+                            <td>
+                                <p>Maximum</p>
+                            </td>
+                            <td>
+                                <p>Least count</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>1</p>
+                            </td>
+                            <td>
+                                <p>Time</p>
+                            </td>
+                            <td>
+                                <p>dependent</p>
+                            </td>
+                            <td>
+                                <p>stopwatch</p>
+                            </td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>2</p>
+                            </td>
+                            <td>
+                                <p>Length</p>
+                            </td>
+                            <td>
+                                <p>Independent</p>
+                            </td>
+                            <td>
+                                <p>Meter scale</p>
+                            </td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <ol>
+                    <li>
+                        <p>Take two threads of ~ meter length and tie them to hooks of the two bobs separately.</p>
+                    </li>
+                    <li>
+                        <p>Tie the other end of the threads to the hooks mounted on the wall. The separation should be ~
+                            15 cm.</p>
+                    </li>
+                    <li>
+                        <p>Measure the time period of both the simple pendulums and make a note of them.</p>
+                    </li>
+                    <li>
+                        <p>Connect the two pendulums with a spring/thread at the center (~50 cm from the top).</p>
+                    </li>
+                </ol>
+                <div class="w3-center">
+                    <img src="PRO1.png">
+                </div>
+                <p><strong>In-phase oscillation</strong></p>
+                <ol start="5">
+                    <li>
+                        <p>Displace both the Pendulums by equal amount in the same direction from the equilibrium
+                            position.</p>
+                    </li>
+                    <li>
+                        <p>Let it oscillate freely for 5-6 oscillations.</p>
+                    </li>
+                    <li>
+                        <p>Then, measure the time taken for ten oscillations.</p>
+                    </li>
+                    <li>
+                        <p>Calculate the time taken for one oscillation and hence the frequency.</p>
+                    </li>
+                </ol>
+                <div class="w3-center">
+                    <img src="PRO2.png">
+                </div>
+                <p><strong>Out of phase oscillations</strong>.</p>
+                <ol start="9">
+                    <li>
+                        <p>Repeat the steps 5-8 by displacing the Pendulums by equal amount in the <strong>opposite
+                                direction</strong> from the equilibrium position.</p>
+                    </li>
+                </ol>
+                <div class="w3-center">
+                    <img src="PRO3.png">
+                </div>
+
+                <p>&ldquo;<strong>Beats&rdquo; oscillations</strong></p>
+                <ol start="10">
+                    <li>
+                        <p>Repeat steps 5-8 by displacing <strong>only one of the pendulums</strong>.</p>
+                    </li>
+                    <li>
+                        <p>Observe the motion of both the pendulums.</p>
+                    </li>
+                    <li>
+                        <p>Measure the time taken between two subsequent standstills of a pendulum. This is equal to
+                            half of the beat period of the coupled oscillator.</p>
+                    </li>
+                    <li>
+                        <p>Calculate the angular beat frequency.</p>
+                    </li>
+                </ol>
+                <p><strong>Tables for recording the data </strong></p>
+
+                <div style="overflow-x:auto;">
+                    <table width="100%">
+                        <caption>
+                            <p>Table III: In-phase oscillation measurements.</p>
+                        </caption>
+                        <tr>
+                            <td>
+                                <p><strong>Sl. No.</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Time taken for 10 oscillations</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Time period</strong></p>
+                                <p><strong>$$T_{1}$$</strong></p>
+
+                            </td>
+                            <td>
+                                <p><strong>frequency</strong></p>
+                                <p><strong>$$f_{1} = \frac{1}{T_{1}}$$</strong></p>
+
+                            </td>
+                            <td>
+                                <p><strong>Angular frequency</strong></p>
+                                <p><strong>$$\omega_{1} = \frac{2\pi}{T_{1}}$$</strong></p>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><strong>1</strong></p>
+                                <p><strong>2</strong></p>
+                                <p><strong>:</strong></p>
+                                <p><strong>10</strong></p>
+                            </td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+
+
+                <div style="overflow-x:auto;">
+                    <table width="100%">
+                        <caption>
+                            <p>Table IV: Anti-phase oscillation measurements.</p>
+
+                        </caption>
+                        <tr>
+                            <td>
+                                <p><strong>Sl. No.</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Time taken for 10 oscillations</strong></p>
+
+                            </td>
+                            <td>
+                                <p><strong>Time period
+                                        <p><strong>$$T_{2}$$</strong></p>
+
+                            </td>
+                            <td>
+                                <p><strong>Frequency</strong></p>
+                                <p><strong>$$f_{2} = \frac{1}{T_{2}}$$</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Angular frequency</strong></p>
+                                <p><strong>$$\omega_{2} = \frac{2\pi}{T_{2}}$$</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><strong>1</strong></p>
+                                <p><strong>2</strong></p>
+                                <p><strong>:</strong></p>
+                                <p><strong>10 </strong></p>
+                            </td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+
+                <div style="overflow-x:auto;">
+                    <table width="100%">
+                        <caption>
+                            <p>Table V: Beats oscillation measurements.</p>
+                        </caption>
+                        <tr>
+                            <td>
+                                <p><strong>Sl. No.</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Beats period</strong></p>
+                                <p><strong>$$T_{b}$$</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Beat Frequency</strong></p>
+                                <p><strong>$$f_{b} = \frac{1}{T_{b}}$$</strong></p>
+                            </td>
+                            <td>
+                                <p><strong>Angular beat frequency</strong></p>
+                                <p><strong>$$\omega_{b} = \frac{2\pi}{T_{b}}$$</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><strong>1</strong></p>
+                                <p><strong>2</strong></p>
+                                <p><strong>:</strong></p>
+                                <p><strong>10</strong></p>
+                            </td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+</body>
+
+</html>
