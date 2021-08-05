@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
 
-    <title>MOMENT OF INERTIA OF FLYWHEEL</title>
+    <title>SPRING CONSTANT MEASUREMENT</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -57,7 +57,7 @@
             <i class="fa fa-bars"></i>
         </a>
 
-        <h1 class="w3-center">MOMENT OF INERTIA OF FLYWHEEL</h1>
+        <h1 class="w3-center">SPRING CONSTANT MEASUREMENT</h1>
     </div>
 
     <div class="d-flex" id="wrapper">
@@ -70,6 +70,8 @@
                 <a href="EQI.html" class="list-group-item list-group-item-action ">Equipments Required</a>
                 <a href="PRO.html" class="list-group-item list-group-item-action ">Procedure</a>
                 <a href="REC.html" class="list-group-item list-group-item-action">Recording Data</a>
+                <a href="STU.html" class="list-group-item list-group-item-action">Study Questions</a>
+                <a href="FUR.html" class="list-group-item list-group-item-action">Further Scope</a>
                 <a href="PRE.html" class="list-group-item list-group-item-action ">Precautions</a>
                 <a href="SOU.html" class="list-group-item list-group-item-action ">Sources of Error</a>
                 <a href="THE.html" class="list-group-item list-group-item-action ">Theory</a>
@@ -80,11 +82,19 @@
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <ul>
-                    <li>A flywheel converts potential energy of mass into rotational kinetic energy. From this rotational kinetic energy, the moment of inertia of the flywheel is calculated.</li>
-                    <li>The mass, m, is raised to a height h above ground, wound n times. After the mass is released, the flywheel rotates N times with angular velocity</li>
-                </ul>
-                $$ω=2π\frac{N}{T}$$
-                $$I=\frac{Nm}{N+n}\left[\frac{2gh}{ω^2}-r^2\right]$$                
+                    <li>
+                        It is well known that within a certain limit, springs extend linearly with force applied. By adding known masses m to a spring, and measuring displacement y, its force constant,k is calculated using this law
+                        $$F=-ky$$
+                    </li>
+                    <li>
+                        Also, by measuring the Time period T for different masses, k can be found out.
+                        $$T=2π\sqrt{\frac{m}{k}}$$
+                    </li>
+                    <li>
+                        When two springs are attached together in series, they act as one single harmonic system, having a certain resultant force constant. This combined force constant is found out using same methods as mentioned above.
+                        $$\frac{1}{k_{eq}} = \frac{1}{k_1}+ \frac{1}{k_2}$$
+                    </li>  
+                </ul>              
             </div>
         </div>
 

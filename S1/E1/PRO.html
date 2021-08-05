@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
 
-    <title>MOMENT OF INERTIA OF FLYWHEEL</title>
+    <title>VERIFYING NEWTON’S SECOND LAW</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -57,7 +57,7 @@
             <i class="fa fa-bars"></i>
         </a>
 
-        <h1 class="w3-center">MOMENT OF INERTIA OF FLYWHEEL</h1>
+        <h1 class="w3-center">VERIFYING NEWTON’S SECOND LAW - Using a linear air track</h1>
     </div>
 
     <div class="d-flex" id="wrapper">
@@ -70,43 +70,46 @@
                 <a href="AIM.html" class="list-group-item list-group-item-action">Aim</a>
                 <a href="PRI.html" class="list-group-item list-group-item-action">Principle</a>
                 <a href="EQI.html" class="list-group-item list-group-item-action">Equipments Required</a>
-                <a href="PRO.html" class="list-group-item list-group-item-action">Procedure</a>
-                <a href="REC.html" class="list-group-item list-group-item-action" id="curNav">Recording Data</a>
+                <a href="PRO.html" class="list-group-item list-group-item-action" id="curNav">Procedure</a>
+                <a href="REC.html" class="list-group-item list-group-item-action">Recording Data</a>
                 <a href="PRE.html" class="list-group-item list-group-item-action">Precautions</a>
                 <a href="SOU.html" class="list-group-item list-group-item-action">Sources of Error</a>
-                <a href="THE.html" class="list-group-item list-group-item-action ">Theory</a>
-                <a href="RES.html" class="list-group-item list-group-item-action ">Additional Resources</a>
+                <a href="THE.html" class="list-group-item list-group-item-action">Theory</a>
+                <a href="RES.html" class="list-group-item list-group-item-action">Additional Resources</a>
+
             </div>
         </div>
 
         <div id="page-content-wrapper">
-            <div class="container-fluid">                
-                <div class="w3-center"><i>Table: I</i></div>
-                <div class="w3-center">
+            <div class="container-fluid">
+                Three physical quantities need to be measured in this experiment – Mass, Length and time (period).
+                Make the following table –<br>
+                Table II : The details of the physical quantities to be measured.            
+                <div style="overflow: auto;">
                     <table>
                         <tr>
-
-                            <td>Sl. No.</td>
-                            <td>
-                                Height
-                                (h) in meters
+                            <td rowspan="2">S.No</td>
+                            <td rowspan="2">Physical quantity</td>
+                            <td rowspan="2">
+                                Independent /
+                                Dependent
                             </td>
-                            <td>Number of revolution to fall (n)</td>
-                            <td>Number of revolution to come to rest (N)</td>
-                            <td>
-                                Time
-                                (sec)
+                            <td rowspan="2">
+                                Measured
+                                with
+                            </td rowspan="2">
+                            <td colspan="3">
+                                Measuring instrument’s
                             </td>
-                            <td>
-                                Angular velocity
-                                (ω)
-                            </td>
-                            <td>Moment of Inertia (I)</td>
-                                                        
+                        </tr>
+                        <tr>
+                            <td>Minimum</td>
+                            <td>Maximum</td>
+                            <td>Least count</td>
                         </tr>
                         <tr>
                             <td>1</td>
-                            <td></td>
+                            <td>Mass</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -115,7 +118,7 @@
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td></td>
+                            <td>Length</td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -124,19 +127,31 @@
                         </tr>
                         <tr>
                             <td>3</td>
+                            <td>Time</td>
                             <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td></td>
-                        </tr>                    
+                        </tr>
                     </table>
-                </div><br>
-                Diameter of axle (2r) = ________<br>
-                Mass of Load (m) = ________<br>
-                Momentum of Inertia (I) = ________<br>
-                Similar tables for varied masses made.
+                </div>
+                To verify that a∝ F
+                <ol>
+                    <li>Measure the length of the string l</li>
+                    <li>Measure the total mass of the cart + hanger + slotted weights system M. This is the mass of our body.</li>
+                    <li>Hang all the slotted weights on the cart and take it to a distance d to the rear end of the air track.</li>
+                    <li>Switch the air blower on and release the vehicle simultaneously starting the timer.</li>
+                    <li>Stop the timer as soon as the vehicle reaches the other end of the track and note the time t2.</li>
+                    <li>Move a weight from the cart and place it on the hanger such that the total mass of the system remains the same and then repeat the experiment until all the masses are moved to the hanger</li>
+                    <li>Find acceleration of the vehicle using the relation $$s=\frac{1}{2}at^{2}$$ in each case and plot a graph between acceleration and the applied force, which is equal to the mass of the hanger X acceleration due to gravity.</li>
+                </ol>
+
+                To measure the coefficient of friction μ
+                <ol>
+                    <li>Attach a small mass to the pulley and keep increasing the mass until the vehicle slowly starts sliding (moving) over the track.</li>
+                    <li>Calculate the coefficient of friction.</li>
+                </ol>
 
             </div>
         </div>

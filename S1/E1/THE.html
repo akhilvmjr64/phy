@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
 
-    <title>MOMENT OF INERTIA OF FLYWHEEL</title>
+    <title>VERIFYING NEWTON’S SECOND LAW</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -57,38 +57,68 @@
             <i class="fa fa-bars"></i>
         </a>
 
-        <h1 class="w3-center">MOMENT OF INERTIA OF FLYWHEEL</h1>
+        <h1 class="w3-center">VERIFYING NEWTON’S SECOND LAW - Using a linear air track</h1>
     </div>
 
     <div class="d-flex" id="wrapper">
+
+
 
         <div class="border-right" id="sidebar-wrapper">
             <div class="list-group list-group-flush">
 
                 <a href="AIM.html" class="list-group-item list-group-item-action">Aim</a>
-                <a href="PRI.html" class="list-group-item list-group-item-action" id="curNav">Principle</a>
-                <a href="EQI.html" class="list-group-item list-group-item-action ">Equipments Required</a>
-                <a href="PRO.html" class="list-group-item list-group-item-action ">Procedure</a>
+                <a href="PRI.html" class="list-group-item list-group-item-action">Principle</a>
+                <a href="EQI.html" class="list-group-item list-group-item-action">Equipments Required</a>
+                <a href="PRO.html" class="list-group-item list-group-item-action">Procedure</a>
                 <a href="REC.html" class="list-group-item list-group-item-action">Recording Data</a>
-                <a href="PRE.html" class="list-group-item list-group-item-action ">Precautions</a>
-                <a href="SOU.html" class="list-group-item list-group-item-action ">Sources of Error</a>
-                <a href="THE.html" class="list-group-item list-group-item-action ">Theory</a>
-                <a href="RES.html" class="list-group-item list-group-item-action ">Additional Resources</a>
+                <a href="PRE.html" class="list-group-item list-group-item-action">Precautions</a>
+                <a href="SOU.html" class="list-group-item list-group-item-action">Sources of Error</a>
+                <a href="THE.html" class="list-group-item list-group-item-action" id="curNav">Theory</a>
+                <a href="RES.html" class="list-group-item list-group-item-action">Additional Resources</a>
+
             </div>
         </div>
 
         <div id="page-content-wrapper">
             <div class="container-fluid">
-                <ul>
-                    <li>A flywheel converts potential energy of mass into rotational kinetic energy. From this rotational kinetic energy, the moment of inertia of the flywheel is calculated.</li>
-                    <li>The mass, m, is raised to a height h above ground, wound n times. After the mass is released, the flywheel rotates N times with angular velocity</li>
-                </ul>
-                $$ω=2π\frac{N}{T}$$
-                $$I=\frac{Nm}{N+n}\left[\frac{2gh}{ω^2}-r^2\right]$$                
+                Newton’s Second Law of Motion states,
+                “In an inertial frame of reference, the net force on a body is equal to the product of the body’s mass and its acceleration”, i.e.
+                $$F=ma \tag{1}$$
+                $$\begin{align*} & \text{where,} \\ & m=\text{ mass of the body}\end{align*}$$
+                Net force due to multiple forces is equal to the vector sum of all of them, i.e.
+                $$\vec{F_{net}}= \vec{F_{1}}+\vec{F_{2}}+…+\vec{F_{n}}\tag{2}$$
+                In the system for the experiment,<br>
+                <ol type='a'>
+                    <li>
+                        Equations of forces on the vehicle:<br>
+                        $$T- F_f=Ma$$
+                        $$F_N=F_{g1}$$
+                        $$\begin{align*} &\text{where},\\&T= \text{Tension on the string}\\
+                        &F_f= \text{Frictional force on the vehicle}\\
+                        &M=   \text{Mass of the vehicle}\\
+                        &a=    \text{Acceleration of the system}\\
+                        &FN= \text{Normal force on the vehicle}\\
+                        &F_{g1}=Mg= \text{Weight of the vehicle}
+                        \end{align*}$$
+                    </li>
+                    <li>
+                        Equations of forces on the hanger:
+                        $$F_{g2}-T=ma,\\ \begin{align*} &\text{where,}\\
+                        &F_{g2}= \text{Weight of the hanger and discs}\\
+                        &m= \text{Mass of the hanger and discs}\\
+                        \end{align*}
+                        $$
+                        On solving for <i>a</i>, by eliminating <i>T</i>, we get
+                        $$
+                        a=\frac{m- µM}{m+Mg}
+                        $$
+                    </li>
+                </ol>
             </div>
         </div>
-
     </div>
+
     <script>
         $("#menu-toggle").click(function (e) {
             e.preventDefault();
