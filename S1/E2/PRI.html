@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
 
-    <title>MOMENT OF INERTIA OF FLYWHEEL</title>
+    <title>FREE FALL</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -57,7 +57,7 @@
             <i class="fa fa-bars"></i>
         </a>
 
-        <h1 class="w3-center">MOMENT OF INERTIA OF FLYWHEEL</h1>
+        <h1 class="w3-center">FREE FALL – Measurement of g</h1>
     </div>
 
     <div class="d-flex" id="wrapper">
@@ -70,21 +70,29 @@
                 <a href="EQI.html" class="list-group-item list-group-item-action ">Equipments Required</a>
                 <a href="PRO.html" class="list-group-item list-group-item-action ">Procedure</a>
                 <a href="REC.html" class="list-group-item list-group-item-action">Recording Data</a>
+                <a href="STU.html" class="list-group-item list-group-item-action">Study Questions</a>
+                <a href="FUR.html" class="list-group-item list-group-item-action">Further Scope</a>
                 <a href="PRE.html" class="list-group-item list-group-item-action ">Precautions</a>
                 <a href="SOU.html" class="list-group-item list-group-item-action ">Sources of Error</a>
-                <a href="THE.html" class="list-group-item list-group-item-action ">Theory</a>
-                <a href="RES.html" class="list-group-item list-group-item-action ">Additional Resources</a>
+
             </div>
         </div>
 
         <div id="page-content-wrapper">
             <div class="container-fluid">
-                <ul>
-                    <li>A flywheel converts potential energy of mass into rotational kinetic energy. From this rotational kinetic energy, the moment of inertia of the flywheel is calculated.</li>
-                    <li>The mass, m, is raised to a height h above ground, wound n times. After the mass is released, the flywheel rotates N times with angular velocity</li>
-                </ul>
-                $$ω=2π\frac{N}{T}$$
-                $$I=\frac{Nm}{N+n}\left[\frac{2gh}{ω^2}-r^2\right]$$                
+                When a body of mass M is made to undergo a freefall, from a height <i>H</i>, the  distance(s) travelled by it is given by 
+                $$s=H-ut-\frac{1}{2}gt^{2}$$
+                $$\begin{align*}&\text{Where,}\\
+                &H~\text{is the height from which it is dropped,}\\
+                &u~\text{is the initial speed and}\\
+                &g~\text{is acceleration due to gravity.}
+                \end{align*}$$
+                By considering <i>H</i> as the origin with downward direction + and initial speed zero, the equation reduces to 
+                $$s=\frac{1}{2}gt^2$$
+                g can be measured by measuring the time required (t) by the body to travel a fixed distance (d) from the origin
+                $$g=\frac{2d}{t^2}$$
+                To make the measurement independent of the initial time, i.e. t=0, the time required to travel two distances (d<sub>1</sub> & d<sub>2</sub>) as t<sub>1</sub>  and t<sub>2</sub> can be used.
+                $$g=\frac{2(d_2-d_1)}{{(t_2-t_1)}^2}$$
             </div>
         </div>
 
