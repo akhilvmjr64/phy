@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
 
-    <title>Sonometer</title>
+
+    <title>Bifilar Pendulum</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -57,12 +58,10 @@
             <i class="fa fa-bars"></i>
         </a>
 
-        <h1 class="w3-center">Sonometer</h1>
+        <h1 class="w3-center">Bifilar Pendulum</h1>
     </div>
 
     <div class="d-flex" id="wrapper">
-
-
 
         <div class="border-right" id="sidebar-wrapper">
             <div class="list-group list-group-flush">
@@ -71,10 +70,10 @@
                 <a href="PRI.html" class="list-group-item list-group-item-action">Principle</a>
                 <a href="EQI.html" class="list-group-item list-group-item-action">Equipments Required</a>
                 <a href="PRO.html" class="list-group-item list-group-item-action">Procedure</a>
-                <a href="STU.html" class="list-group-item list-group-item-action">Study Questions</a>
-                <a href="FUR.html" class="list-group-item list-group-item-action">Further Scope</a>
                 <a href="PRE.html" class="list-group-item list-group-item-action">Precautions</a>
                 <a href="SOU.html" class="list-group-item list-group-item-action">Sources of Error</a>
+                <a href="STU.html" class="list-group-item list-group-item-action">Study Questions</a>
+                <a href="FUR.html" class="list-group-item list-group-item-action">Further Scope</a>
                 <a href="THE.html" class="list-group-item list-group-item-action" id="curNav">Theory</a>
                 <a href="RES.html" class="list-group-item list-group-item-action">Additional Resources</a>
 
@@ -83,41 +82,25 @@
 
         <div id="page-content-wrapper">
             <div class="container-fluid">
-                p>Standing Waves: A simple sine wave traveling along
-                a taut string can be described by the equation,</p>
-                $$y_{1} = y_{m}sin\left( \frac{2\pi}{\lambda}(x - vt)\right)$$
-                <p>The reflected wave can be described by the equation,</p>
-                $$y_{2} = y_{m}sin\left( \frac{2\pi}{\lambda}(x + vt)\right)$$
-                <p>Resultant standing wave can be described by,</p>
-                $$y = 2y_{m}sin\left( \frac{2\pi}{\lambda}x\right)cos\left( \frac{2\pi}{\lambda}vt\right)$$
-                <p>Resonance: At certain frequencies of oscillation
-                    all the reflected waves are in phase, resulting in a very high amplitude standing wave. These
-                    frequencies are called resonant frequencies. In general, resonance occurs when the wavelength
-                    satisfies the condition:</p>
-                <p>\(\lambda= 2L /n\); \(n\) = 1, 2, 3, 4&hellip;</p>
-                <p>Velocity of Wave Propagation:
-                    'The velocity of wave propagation (\(V\)) on
-                    a stretched string depends on two variables:
-                    the mass per unit length or linear density of
-                    the string (\(\mu\)) and the tension of the string (\(T\)).
-                    The relationship is given by the equation:</p>
-                $$V = \sqrt{\frac{T}{\mu}}$$
+                <p>The word filar means relating to thread or line. The bifilar suspension is a technique used to determine the moment of inertia of any type of object about any point on the object. This is done by suspending two parallel cords of equal length through the object being examined.</p>
+                <p>When the block is slightly rotated, the filaments make an angle φ with their original position. Similarly, the block makes an angle θ with its original position. Taking the length of the filament as L and the distance between the points of suspension as 2r, we can equate the displacement of the block as follows</p>
+                <p>Torque can be calculated as follows</p>
+                <p>where N (= mg/2) is the tension in the string.</p>
 
-                <p>The tension is varied using
-                    hanging weights on a lever arm.
-                    The wavelength is then measured
-                    by adjusting the frequency until a resonance
-                    pattern develops. The velocity can then be
-                    calculated using the relationship \(V = \lambda v\) and
-                    the effects of tension and linear density on
-                    velocity can be determined.</p>
+                <div class="w3-center">
+                    <img src="THE1.png" style="max-width: 300px;">
+                </div>
+                <div class="w3-center">
+                    <img src="THE2.png" style="max-width: 300px;">
+                </div>
 
+                <p>This is the equation of a simple harmonic oscillator. Therefore, the formula of the time period can be written as follows</p>
+                <p>Taking the length of the filament as , half of the distance between the supports as d1, and half of the distance between the lower ends of the filament as d2 we can express the time period as</p>
 
             </div>
-
         </div>
-    </div>
 
+    </div>
     <script>
         $("#menu-toggle").click(function (e) {
             e.preventDefault();
@@ -125,5 +108,3 @@
         });
     </script>
 </body>
-
-</html>
