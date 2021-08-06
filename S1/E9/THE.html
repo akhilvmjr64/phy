@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
 
-    <title>Resonance of Air Columns</title>
+
+    <title>Torsional Pendulum</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -57,12 +58,10 @@
             <i class="fa fa-bars"></i>
         </a>
 
-        <h1 class="w3-center">Resonance Of Air Coloumns</h1>
+        <h1 class="w3-center">Torsional Pendulum</h1>
     </div>
 
     <div class="d-flex" id="wrapper">
-
-
 
         <div class="border-right" id="sidebar-wrapper">
             <div class="list-group list-group-flush">
@@ -71,6 +70,7 @@
                 <a href="PRI.html" class="list-group-item list-group-item-action">Principle</a>
                 <a href="EQI.html" class="list-group-item list-group-item-action">Equipments Required</a>
                 <a href="PRO.html" class="list-group-item list-group-item-action">Procedure</a>
+                <a href="REC.html" class="list-group-item list-group-item-action">Recording Data</a>
                 <a href="STU.html" class="list-group-item list-group-item-action">Study Questions</a>
                 <a href="FUR.html" class="list-group-item list-group-item-action">Further Scope</a>
                 <a href="PRE.html" class="list-group-item list-group-item-action">Precautions</a>
@@ -83,11 +83,32 @@
 
         <div id="page-content-wrapper">
             <div class="container-fluid">
+                <p>
+                    It can be shown that:
+                    $$T = 2\pi\sqrt{\frac{l}{c}}$$
+                    where c = Couple per unit twist
+                </p>
+
+                <p>
+                    But, 
+                    $$c = \frac{\pi\eta\alpha^4}{2l}$$
+
+                    And,
+                    $$\eta = \frac{\text{shearing stress}}{\text{Strain(shear angle)}} = \frac{8\pi l}{\alpha^4} * \frac{l}{T^2}$$
+                    here, I is the moment of inertial of the disc.
+                </p>
+
+                <p>
+                    Finally we get,
+                    $$l = \left(\frac{\eta \alpha^4}{4\pi MR^2}\right) T^2$$
+
+                    The equation above can be plotted l along y-axis and T <sup>2</sup> along x-axis and from the slope the Rigidity modulus can be found out.
+                </p>
+
             </div>
-
         </div>
-    </div>
 
+    </div>
     <script>
         $("#menu-toggle").click(function (e) {
             e.preventDefault();

@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="../../logo.jpeg" type="image/x-icon">
 
-    <title>Resonance of Air Columns</title>
+
+    <title>Torsional Pendulum</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -57,12 +58,10 @@
             <i class="fa fa-bars"></i>
         </a>
 
-        <h1 class="w3-center">Resonance Of Air Coloumns</h1>
+        <h1 class="w3-center">Torsional Pendulum</h1>
     </div>
 
     <div class="d-flex" id="wrapper">
-
-
 
         <div class="border-right" id="sidebar-wrapper">
             <div class="list-group list-group-flush">
@@ -71,6 +70,7 @@
                 <a href="PRI.html" class="list-group-item list-group-item-action">Principle</a>
                 <a href="EQI.html" class="list-group-item list-group-item-action">Equipments Required</a>
                 <a href="PRO.html" class="list-group-item list-group-item-action" id="curNav">Procedure</a>
+                <a href="REC.html" class="list-group-item list-group-item-action">Recording Data</a>
                 <a href="STU.html" class="list-group-item list-group-item-action">Study Questions</a>
                 <a href="FUR.html" class="list-group-item list-group-item-action">Further Scope</a>
                 <a href="PRE.html" class="list-group-item list-group-item-action">Precautions</a>
@@ -83,264 +83,46 @@
 
         <div id="page-content-wrapper">
             <div class="container-fluid">
-                <p>Two physical quantity need to be measured in this experiment. </p>
-
-                <div style="overflow: auto;">
-                    <table cellpadding="7" cellspacing="0">
-                        <caption> Table II : The details of the physical quantities to be measured. </caption>
-                        <colgroup>
-                            <col width="22" />
-                            <col width="90" />
-                            <col width="81" />
-                            <col width="99" />
-                            <col width="73" />
-                            <col width="73" />
-                            <col width="60" />
-                        </colgroup>
+                <p>Make the following table for the quantities to be measured –</p>
+                <div style="overflow-x: auto;">
+                    <table width="100%">
+                        <thead>
+                            <tr><th>Sl No.</th> <th>Physical Quantity</th> <th>Measured With</th> <th>Least Count</th></tr>
+                        </thead>
                         <tbody>
-                            <tr valign="top">
-                                <td rowspan="2" width="22" height="8">
-                                    <p>
-                                        S.No
-                                    </p>
-                                </td>
-                                <td rowspan="2" width="90">
-                                </td>
-                                <td rowspan="2" width="81">
-                                    <p lang="en-US">
-                                        Independent/dependent
-                                    </p>
-                                </td>
-                                <td rowspan="2" width="99">
-                                    <p>
-                                        Measured
-                                    </p>
-                                    <p>
-                                        with
-                                    </p>
-                                </td>
-                                <td colspan="3" width="235">
-                                    <p>
-                                        Measuring instrument’s
-                                    </p>
-                                </td>
+                            <tr>
+                                <th>1</th><th>Mass of Disc</th><th></th><th></th>
                             </tr>
-                            <tr valign="top">
-                                <td width="73">
-                                    <p>
-                                        Minimum
-                                    </p>
-                                    <p lang="en-US">
-                                        (cm)
-                                    </p>
-                                </td>
-                                <td width="73">
-                                    <p>
-                                        Maximum (cm)
-                                    </p>
-                                </td>
-                                <td width="60">
-                                    <p>
-                                        Least count
-                                    </p>
-                                    <p>
-                                        (mm)
-                                    </p>
-                                </td>
+                            <tr>
+                                <th>2</th><th>Length of Wire</th><th></th><th></th>
                             </tr>
-                            <tr valign="top">
-                                <td width="22">
-                                    <p>
-                                        1
-                                    </p>
-                                </td>
-                                <td width="90">
-                                    <p>
-                                        Length
-                                    </p>
-                                </td>
-                                <td width="81">
-                                    <p>
-                                        dependent
-                                    </p>
-                                </td>
-                                <td width="99">
-                                    <p>
-                                        scale
-                                    </p>
-                                </td>
-                                <td width="73">
-                                    <p>
-                                        0
-                                    </p>
-                                </td>
-                                <td width="73">
-                                    <p>
-                                        76
-                                    </p>
-                                </td>
-                                <td width="60">
-                                    <p>
-                                        1
-                                    </p>
-                                </td>
+                            <tr>
+                                <th>3</th><th>Diameter of Disc</th><th></th><th></th>
                             </tr>
-                            <tr valign="top">
-                                <td width="22" height="8">
-                                    <p>
-                                        2
-                                    </p>
-                                </td>
-                                <td width="90">
-                                    <p>
-                                        Frequency
-                                    </p>
-                                </td>
-                                <td width="81">
-                                    <p>
-                                        independent
-                                    </p>
-                                </td>
-                                <td colspan="4" width="348">
-                                    <p>
-                                        Different tuning forks are used. The values are mentioned
-                                        on it.
-                                    </p>
-                                </td>
+                            <tr>
+                                <th>2</th><th>Radius of wire</th><th></th><th></th>
                             </tr>
+                            <tr>
+                                <th>5</th><th>Time</th><th></th>
+                            </tr>
+
                         </tbody>
                     </table>
                 </div>
-                <br>
-                <ol>
-                    <li>Make sure that there is enough water in the reservoir, the water should be sufficient to
-                        make the air column length upto 5 cm.</li>
-                    <strong>The length of air column can be changed by changing water level in the tube. It is done
-                        by raising or lowering the water reservoir and loosening the pinch cork.</strong>
-                    <li>Make the air column length as 5 cm.</li>
-                    <li>Choose a tuning fork of highest frequency. Hit it against a hammer and place it above the
-                        water tube. Listen carefully if there is any sound.</li>
-                    <li>Tighten the pinch cork (not fully) and fix the reservoir at 40 cm. This will make the water
-                        level in the tube decrease slowly.</li>
-                    <li>As the water level is decreasing, keep on exciting the air column till you hear a sound.
-                        Note down the range for which sound could be heard.</li>
-                    <li>Now, adjust the length of the air column within the range and Note down this length (as
-                        <em>l</em><sub>0</sub>) where the maximum sound is heard. This is the fundamental mode.</li>
-                    <li><strong>Increase the length of the air column further to obtain the second mode.
-                        </strong>Note down this length of air column as <em>l</em><sub>1</sub>.</li>
-                    <li>Repeat this measurement for the all the available tuning forks.</li>
-                    <li>Plot a graph  vs 1/4L. The slope of the line is related to the speed of the wave.</li>
-                </ol>
-                <p> </p>
-                <div class="w3-center">
-                    <img src="PRO1.jpg" style="height:50%;width:50%">
-                </div>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <p><strong>How to measure resonance length: </strong></p>
-                                <p>The resonance length is found out by listening to the sound created by the air
-                                    column. The length corresponding to the loudest sound heard by you is taken as
-                                    resonance length.</p>
-                                <p>When the loud sound is heard, change the air column length by small amounts and
-                                    repeat the experiment.</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
 
-                <div style="overflow-x:auto">
-                    <dl>
-                        <dd>
-                            <table>
-                                <caption>Table III: Measurements.</caption>
-                                <tbody>
-                                    <tr>
-                                        <th>
-                                            <p>S.No.</p>
-                                        </th>
-                                        <th>
-                                            <p>Frequency of tuning fork</p>
-                                            <p>ʋ</p>
-                                        </th>
-                                        <th>
-                                            <p>Fundamental mode</p>
-                                            <p>l<sub>0</sub></p>
-                                        </th>
-                                        <th>
-                                            <p>Second mode (l<sub>1</sub>)</p>
-                                        </th>
-                                        <th>
-                                            <p>Wavelength</p>
-                                            <p>(l<sub>1</sub>- l<sub>0</sub>)</p>
-                                        </th>
-                                        <th>
-                                            <p>Velocity</p>
-                                        </th>
-                                    </tr>
+                <p>
+                    <ul>
+                        <li>Measure the mass of the disc (M) using a digital weighing machine.</li>
+                        <li>Measure the radius of the disc (R) by finding the diameter using a Vernier Calipers.</li>
+                        <li>Measure the radius of the wire (&alpha;) using a Screw Gauge</li>
+                        <li>A wire of 1 metre whose rigidity modulus (&eta;) is to be determined is taken and the bends are straightened with the help of pliers.</li>
+                        <li>The disc is suspended from one end of the wire. The other end of the wire is passed through the chuck which is fixed to the ‘fixed stand’.</li>
+                        <li>The length of the wire between the chuck is adjusted to a convenient value (l).</li>
+                        <li>A pin is fixed vertically on the edge of the disc and a vertical pointer is placed in front of the disc against the pin to serve as a reference to count the oscillations.</li>
+                        <li>Now, apply a small torque couple and measure the time taken for 20 oscillations of the torsional oscillations.</li>
+                    </ul>
+                </p>
 
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td> </td>
-                                        <td>
-                                            <p>Hz</p>
-                                        </td>
-                                        <td>
-                                            <p>cm</p>
-                                        </td>
-                                        <td>
-                                            <p>cm</p>
-                                        </td>
-                                        <td>
-                                            <p>cm</p>
-                                        </td>
-                                        <td>
-                                            <p>ms<sup>-1</sup></p>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <p>1</p>
-                                        </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <p>2</p>
-                                        </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <p>10</p>
-                                        </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                        <td> </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </dd>
-                    </dl>
-                </div>
 
             </div>
         </div>
